@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(23, 66, 116);
+    width:970px;
+}
+
+
+header{
+    background-color:red;
+    margin:14px;
+    margin-left:2px;
+    margin-right:25px;
+    height:55px;
+    border-radius:14px;
+}
+
+
+h1{
+    text-align:left;
+    color:white;
+    padding:7px;
+}
+
+
+#side_menu_wrapper{
+    background-color:rgb(20, 95, 73);
+    display:inline-block;
+    vertical-align:top;
+    margin:0px, 25px, 25px;
+    border-radius:14px;
+}
+
+#body_wrapper{
+    background-color:black;
+    display:inline-block;
+    width:700px;
+    margin-left:29px;
+    border-radius:14px;
+}
+
+
+/* #body_wrapper li{
+    color:white;
+} */
+
+
+#body_wrapper a{
+    text-decoration-color:rgb(23, 182, 235);
+}
+
+
+p{
+    
+}
+
+
+.definitions{
+    color:rgb(0, 153, 255);
+}
+
+
+#foot_wrapper{
+    background-color:grey;
+    height:45px;
+    margin:18px;
+    margin-left:2px;
+    margin-right:12px;
+    border-radius:14px;
+}
+
+
+.text_dec{
+    color:white;
+    margin:10px;
+}
+
+
+.hl_dec{
+    color:rgb(149, 222, 247);
+}
+
+
+#foot_text{
+    padding:14px;
+}
+
+
+#home_link{
+    
+}
