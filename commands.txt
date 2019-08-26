@@ -1,0 +1,96 @@
+TERMINAL COMMANDS
+
+FLAGS (modifiers of commands)
+	ls -a
+		LS -a will list all files and folders (including private)
+			-a is a FLAG that modifies the command
+
+	ls -l
+		LS -L will show permissions, dates, and files…etc
+
+	ls -al
+		LS-AL will give permissions levels, AND private files
+
+DOTFILES
+	dot files start with a dot and are considered configuration files (settings)
+
+
+	ls
+		LS stands for list (all public files and folders)
+
+	~
+		Back to root directory
+
+	open .
+		opens current location of terminal
+
+	cd
+		changes directory back once
+
+	pwd
+		pwd stands for print working directory (“where am I?”)
+
+	clear (ctrl+L)
+		just moves the typing field to the top (more space to work with)
+
+	mkdir (mkdir samplefolder)
+		makes a directory (make a new folder)
+			Use LS to check to see the folder you just made
+				Use CD to enter that folder
+	touch
+		creates a file
+			sample (index.html , or sample.txt)
+
+	touch file1.txt file2.txt file3.txt
+		creates 3 separate files
+
+	mkdir subfolder-1 subfulder-2
+			cd subfolder-1
+			ls
+				type ls to check if anything is inside subfolder-1
+
+	cd .. (a space between the dots)
+		goes back one folder
+			pwd to see directory
+
+	cd sample-folder/subfolder-1
+		you can type the full directory
+			you can also get modules to TAB through directories
+
+	cd ../..
+		will go backwards one more directory
+
+	cd ../../..
+		etc…
+
+WE JUST LEARNED HOW TO CREATE FILES AND FOLDERS without GUI
+
+Continuing on…
+	rm sample.txt
+		RM stands for remove file (not a folder and/or directory)
+
+	rm -r (stands for recursively)
+		Stand for remove a folder AND everything in it “recursively”
+
+	rm -rf (stands for recursively with FORCE-stands for fire—don’t use this…)
+		removes all files of directory WITH FORCE
+
+
+
+
+
+
+
+git add .				-ACCIDENTALLY NESTED REPO
+
+cd plottingblocks/ 		-THIS is the nest inside the repo 
+ls 					-check the files inside the nest
+
+rm -rf .git				-remove the “.git”???(unsure what .git is)
+
+Git status				-check status of the master location 					-as well as the nest file (green is good)  cd ..					-go back 2 folders  git status				-check to see if file is READY TO ADD
+					-again here GREEN IS GOOD  git add .				-add file
+
+git commit -m			-commit file
+
+git push origin master	-upload the file
