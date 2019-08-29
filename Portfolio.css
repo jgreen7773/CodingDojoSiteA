@@ -1,0 +1,131 @@
+header{
+    background-color:indianred;
+    padding:22px;
+    border-radius:12px;
+    height:80px;
+    width:867px;
+}
+
+
+
+h1{
+    font:sans-serif;
+    color:black;
+    display:inline-block;
+}
+
+
+
+h2{
+    font:helvetica;
+    color:rosybrown;
+    text-align:right;
+    display:inline-block;
+    margin-left:400px
+}
+
+
+
+h3{
+    margin-left:33px;
+}
+
+
+
+body{
+    background-image:url(124.jpg)
+}
+
+
+
+#p_photo{
+    width:250px;
+    height:295px;
+    display:inline-block;
+    vertical-align:top;
+    margin: 20px 0px 0px 20px;
+}
+
+
+
+.p_info{
+    background-color:sandybrown;
+    display:inline-block;
+    vertical-align:top;
+}
+
+
+
+#about_me{
+    height:295px;
+    width:563px;
+    display:inline-block;
+    margin:20px 20px 75px 75px;
+    overflow:scroll;
+}
+
+
+
+#nlrc{
+    height:350px;
+    width:280px;
+    margin:0px 20px 0px 8px;
+}
+
+
+
+#references{
+    height:350px;
+    width:280px;
+    margin:0px 8px 0px 8px;
+}
+
+
+
+#application{
+    height:350px;
+    width:280px;
+    margin:0px 8px 0px 20px;
+}
+
+
+
+.p_info_header{
+    color:white;
+    padding-left:14px;
+    background-color:brown;
+    height: 60px;
+}
+
+
+
+.p_info_header2{
+    color:chocolate;
+    margin-left:10px;
+    
+}
+
+
+
+p{
+    color:black;
+    padding:12px;
+    overflow:scroll;
+    height:45px;
+}
+
+
+
+.tech_photo{
+    width:45px;
+    height:45px;
+    display:inline-block;
+    margin-left:3px;
+}
+
+
+
+.button{
+    display:block;
+    margin-left:100px;
+}
